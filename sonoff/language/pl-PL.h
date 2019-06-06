@@ -256,7 +256,7 @@
 
 #define D_MODULE_PARAMETERS "Parametry modułu"
 #define D_MODULE_TYPE "Typ modułu"
-#define D_PULLUP_ENABLE "No Button/Switch pull-up"
+#define D_PULLUP_ENABLE "Brak przycisku/Włącz pull-up"
 #define D_ADC "ADC"
 #define D_GPIO "GPIO"
 #define D_SERIAL_IN "Serial In"
@@ -292,8 +292,8 @@
 #define D_TELEMETRY_PERIOD "Okres telemetrii"
 
 #define D_OTHER_PARAMETERS "Inne parametry"
-#define D_TEMPLATE "Template"
-#define D_ACTIVATE "Activate"
+#define D_TEMPLATE "Szablon"
+#define D_ACTIVATE "Aktywuj"
 #define D_WEB_ADMIN_PASSWORD "Hasło administratora Web"
 #define D_MQTT_ENABLE "MQTT aktywne"
 #define D_FRIENDLY_NAME "Twoja nazwa"
@@ -302,11 +302,11 @@
 #define D_SINGLE_DEVICE "single device"
 #define D_MULTI_DEVICE "multi device"
 
-#define D_CONFIGURE_TEMPLATE "Configure Template"
-#define D_TEMPLATE_PARAMETERS "Template parameters"
-#define D_TEMPLATE_NAME "Name"
-#define D_BASE_TYPE "Based on"
-#define D_TEMPLATE_FLAGS "Options"
+#define D_CONFIGURE_TEMPLATE "Konfiguruj szablon"
+#define D_TEMPLATE_PARAMETERS "Parametry szablonu"
+#define D_TEMPLATE_NAME "Nazwa"
+#define D_BASE_TYPE "Bazowane na"
+#define D_TEMPLATE_FLAGS "Opcje"
 
 #define D_SAVE_CONFIGURATION "Zapisz ustawienia"
 #define D_CONFIGURATION_SAVED "Ustawienia zapisane"
@@ -320,7 +320,7 @@
 #define D_MQTT_HOST "Host MQTT"
 #define D_MQTT_PORT "Port MQTT"
 #define D_MQTT_CLIENT "Klient MQTT"
-#define D_MQTT_USER "Uzytkownik MQTT"
+#define D_MQTT_USER "Użytkownik MQTT"
 #define D_MQTT_TOPIC "Temat MQTT"
 #define D_MQTT_GROUP_TOPIC "Temat grupy MQTT"
 #define D_MQTT_FULL_TOPIC "Pełen temat MQTT"
@@ -399,7 +399,7 @@
   #define D_DOMOTICZ_COUNT "Licznik/PM1"
   #define D_DOMOTICZ_VOLTAGE "Napięcie/PM2,5"
   #define D_DOMOTICZ_CURRENT "Prąd/PM10"
-  #define D_DOMOTICZ_AIRQUALITY "AirQuality"
+  #define D_DOMOTICZ_AIRQUALITY "JakośćPow"
 #define D_DOMOTICZ_UPDATE_TIMER "Zaktualizuj czasomierz"
 
 // xdrv_09_timers.ino
@@ -450,7 +450,7 @@
 #define D_TIMEOUT_WAITING_FOR "Trwa oczekiwanie"
 #define D_START_SIGNAL_LOW "sygnał startowy niski"
 #define D_START_SIGNAL_HIGH "sygnał startowy wysoki"
-#define D_PULSE "pulse"
+#define D_PULSE "puls"
 #define D_CHECKSUM_FAILURE "Błędna suma kontrolna"
 
 // xsns_07_sht1x.ino
@@ -463,12 +463,12 @@
 #define D_PARTICALS_BEYOND "Cząstki"
 
 // xsns_32_mpu6050.ino
-#define D_AX_AXIS "Accel. X-Axis"
-#define D_AY_AXIS "Accel. Y-Axis"
-#define D_AZ_AXIS "Accel. Z-Axis"
-#define D_GX_AXIS "Gyro X-Axis"
-#define D_GY_AXIS "Gyro Y-Axis"
-#define D_GZ_AXIS "Gyro Z-Axis"
+#define D_AX_AXIS "Akcel. oś-X"
+#define D_AY_AXIS "Akcel. oś-Y"
+#define D_AZ_AXIS "Akcel. oś-Z"
+#define D_GX_AXIS "Żyros. oś-X"
+#define D_GY_AXIS "Żyros. oś-Y"
+#define D_GZ_AXIS "Żyros. oś-Z"
 
 // xsns_34_hx711.ino
 #define D_HX_CAL_REMOVE "Usuń wagę"
@@ -498,7 +498,7 @@
 
 // sonoff_template.h - keep them as short as possible to be able to fit them in GUI drop down box
 #define D_SENSOR_NONE          "Brak"
-#define D_SENSOR_USER          "User"
+#define D_SENSOR_USER          "Użytk."
 #define D_SENSOR_DHT11         "DHT11"
 #define D_SENSOR_AM2301        "AM2301"
 #define D_SENSOR_SI7021        "SI7021"
@@ -581,7 +581,7 @@
 #define D_SENSOR_ARIRFSEL      "ALux IrSel"
 #define D_SENSOR_TXD           "Serial Tx"
 #define D_SENSOR_RXD           "Serial Rx"
-#define D_SENSOR_ROTARY        "Rotary"     // Suffix "1A"
+#define D_SENSOR_ROTARY        "Enkoder"     // Suffix "1A"
 #define D_SENSOR_HRE_CLOCK     "HRE Clock"
 #define D_SENSOR_HRE_DATA      "HRE Data"
 #define D_SENSOR_ADE7953_IRQ   "ADE7953 IRQ"
@@ -646,13 +646,13 @@
 #define D_LOG_WIFI "WIF: "         // Wifi
 
 //SDM220
-#define D_PHASE_ANGLE     "Phase Angle"
-#define D_IMPORT_ACTIVE   "Import Active"
-#define D_EXPORT_ACTIVE   "Export Active"
-#define D_IMPORT_REACTIVE "Import Reactive"
-#define D_EXPORT_REACTIVE "Export Reactive"
-#define D_TOTAL_REACTIVE  "Total Reactive"
+#define D_PHASE_ANGLE     "Kąt fazowy"
+#define D_IMPORT_ACTIVE   "Importuj Aktywne"
+#define D_EXPORT_ACTIVE   "Eksportuj Aktywne"
+#define D_IMPORT_REACTIVE "Importuj Reaktywne"
+#define D_EXPORT_REACTIVE "Eksportuj Reaktywne"
+#define D_TOTAL_REACTIVE  "Wszystkie Reaktywne"
 #define D_UNIT_KWARH      "kVArh"
-#define D_UNIT_ANGLE      "Deg"
+#define D_UNIT_ANGLE      "kąt"
 
 #endif  // _LANGUAGE_PL_PL_D_H_
